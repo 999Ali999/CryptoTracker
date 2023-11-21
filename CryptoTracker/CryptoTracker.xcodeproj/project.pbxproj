@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C8589332B0D2C350014B1D3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8589322B0D2C350014B1D3 /* Kingfisher */; };
 		3C8589352B0D2D0D0014B1D3 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8589342B0D2D0D0014B1D3 /* Double.swift */; };
+		3C8589372B0D39C20014B1D3 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C8589362B0D39C20014B1D3 /* response.json */; };
 		3CE7995D2B0D02E9005A3E44 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7995C2B0D02E9005A3E44 /* CryptoTrackerApp.swift */; };
 		3CE7995F2B0D02E9005A3E44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7995E2B0D02E9005A3E44 /* ContentView.swift */; };
 		3CE799612B0D02EA005A3E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE799602B0D02EA005A3E44 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3C8589342B0D2D0D0014B1D3 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		3C8589362B0D39C20014B1D3 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = response.json; path = ../../../../../../Downloads/response.json; sourceTree = "<group>"; };
 		3CE799592B0D02E9005A3E44 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE7995C2B0D02E9005A3E44 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		3CE7995E2B0D02E9005A3E44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		3CE7996D2B0D0953005A3E44 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3C8589362B0D39C20014B1D3 /* response.json */,
 				3CE799812B0D1DC5005A3E44 /* Coin.swift */,
 			);
 			path = Models;
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE799642B0D02EA005A3E44 /* Preview Assets.xcassets in Resources */,
+				3C8589372B0D39C20014B1D3 /* response.json in Resources */,
 				3CE799612B0D02EA005A3E44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
