@@ -17,7 +17,7 @@ struct AllCoinsView: View {
                 .padding()
             
             HStack {
-               Text("Coin")
+                Text("Coin")
                 
                 Spacer()
                 
@@ -38,6 +38,6 @@ struct AllCoinsView: View {
     }
 }
 
-//#Preview {
-//    AllCoinsView()
-//}
+#Preview {
+    AllCoinsView()
+}
