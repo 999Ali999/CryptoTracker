@@ -30,6 +30,7 @@ struct HomeView: View {
             }
             .navigationTitle(Text(getFormattedDate()))
 //            .navigationBarTitleDisplayMode(.inline)
+            .accessibilityLabel(Text(getFormattedDate()))
         }
     }
 }
